@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Prueba";
+  src: local("AmericanCaptain"),
+    url("./fonts/AmericanCaptain.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MenuStyle";
+  src: local("Contre-poincon"),
+    url("./fonts/Contre-poincon.ttf") format("truetype");
+}
+
+
+
+
+@font-face {
+  font-family: "MayusAccentos";
+  src: local("SUBSCRIBER-Regular"),
+    url("./fonts/SUBSCRIBER-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Domicilio";
+  src: local("hemiheadbdit"),
+    url("./fonts/hemiheadbdit.otf") format("truetype");
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

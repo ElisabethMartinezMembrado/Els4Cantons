@@ -1,0 +1,28 @@
+#EntradaImg {
+    height: 77vh;
+    width: 57vh;
+    background: linear-gradient(to right top, #05193799, #004d7a99, #00879399, #00bf7299, #a8eb1299);
+}
+
+#WelcomeCard {
+    background-color: #A7E8BD;
+    margin-top: -6px;
+
+}
+
+@font-face {
+    font-family: "WelcomeText";
+    src: local("YourHighschoolCrush-Regular"),
+        url("../fonts/YourHighschoolCrush-Regular.otf") format("truetype");
+}
+
+.TxtWelcome {
+    text-align: center;
+    font-size: large;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    color: rgb(255, 255, 255);
+}
