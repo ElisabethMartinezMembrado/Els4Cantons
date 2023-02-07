@@ -18,7 +18,7 @@ function Navbar (){
         < >
         <Box sx={{ 
            
-            width: "100%",
+            width: "100vw",
 
              }}>
       <AppBar id="Navbar" position="static">
@@ -32,7 +32,7 @@ function Navbar (){
       </AppBar>
       
         <Toolbar sx={{backgroundColor: "#8DE2AA",
-                        width:"100%",
+                       
                         }} >
         < a href="#ContactoRout">
             <Button
