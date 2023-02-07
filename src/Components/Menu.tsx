@@ -332,7 +332,9 @@ function Menu (){
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel1a-content"
-                            sx={{backgroundColor: "#FFC31F",}}
+                            sx={{backgroundColor: "#FFC31F",
+                            width:"100vw"
+                                }}
                             >
                             <ListItem disablePadding>
                                 <ListItemButton>
@@ -392,7 +394,8 @@ function Menu (){
                         
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1a-content"
-                        sx={{backgroundColor: "#FFB703",}}
+                        sx={{backgroundColor: "#FFB703",
+                        width:"100vw",}}
                         >
                             <ListItem disablePadding>
                                 <ListItemButton>
@@ -442,7 +445,8 @@ function Menu (){
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel2a-content"
-                            sx={{backgroundColor: "#FEAB03",}}
+                            sx={{backgroundColor: "#FEAB03",
+                            width:"100vw",}}
                             >
 
                                 <ListItem disablePadding>
@@ -491,7 +495,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#FD9E02",}}
+                    sx={{backgroundColor: "#FD9E02",
+                    width:"100vw"}}
                     >
                  <ListItem disablePadding>
                     <ListItemButton>
@@ -545,7 +550,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#FC9201",}}
+                    sx={{backgroundColor: "#FC9201",
+                    width:"100vw",}}
 
                     >
                  <ListItem disablePadding>
@@ -632,7 +638,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#FB8500",}}
+                    sx={{backgroundColor: "#FB8500",
+                    width:"100vw"}}
 
                     >
 
@@ -735,7 +742,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#EF7F01",}}
+                    sx={{backgroundColor: "#EF7F01",
+                    width:"100vw",}}
 
                     >
                  <ListItem disablePadding>
@@ -828,7 +836,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#E27902",}}
+                    sx={{backgroundColor: "#E27902",
+                    width:"100vw"}}
 
                     >
                  <ListItem disablePadding>
@@ -885,7 +894,8 @@ function Menu (){
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    sx={{backgroundColor: "#D67303",}}
+                    sx={{backgroundColor: "#D67303",
+                    width:"100vw",}}
                     >
                     <ListItem disablePadding>
                         <ListItemButton>

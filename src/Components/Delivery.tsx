@@ -9,9 +9,11 @@ function Delivery (){
     return(
         <div id='DeliveryRout'>
             <Box sx={{
-                width:"375px",
-                marginBottom:2,
+                
+                
                 backgroundColor: "#003049",
+                width:"100vw",
+              
                 
 
             }} >
@@ -20,8 +22,9 @@ function Delivery (){
                     fontFamily: "Domicilio",
                     color: "#F77F00",
                     fontSize:"1.5rem",
-                    paddingLeft:3,
-                    paddingRight:3,
+                    paddingLeft:2,
+                    paddingRight:2,
+                    textAlign:"center"
                 }}>Ofrecemos servicio a domicilio por la noche en el pueblo de Cardona y El barrio de la Coromina.
                 Más allá de los alrededores, póngase en contacto con el local para consultar.
                 </Typography>
