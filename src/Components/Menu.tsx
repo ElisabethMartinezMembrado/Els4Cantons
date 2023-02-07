@@ -311,7 +311,7 @@ function Menu (){
         
             <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', }}>
                 <nav  aria-label="main mailbox folders" >
-                <List  id="MenuRout">
+                <List  id="MenuRout" sx={{width:"100vw",}}>
                     <ListItem disablePadding>
                         <ListItemButton>
                             <Typography variant='h1'
@@ -350,11 +350,11 @@ function Menu (){
                                 </ListItemButton>
                             </ListItem>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails >
                         
                             {Picar.map((CadaxPicar) => 
-                                <ListItem disablePadding>
-                                    <ListItemButton>
+                                <ListItem disablePadding >
+                                    <ListItemButton >
                                         <Typography variant='h4' sx={{
                                             marginTop:2,
                                             fontSize: "2rem",
@@ -622,7 +622,10 @@ function Menu (){
                                 <Typography variant='h4' sx={{
                                     marginTop:2,
                                     fontSize: "2rem",
-                                    fontFamily:'MayusAccentos'
+                                    fontFamily:'MayusAccentos',
+                                    paddingLeft:2,
+                                    paddingRight:2,
+                                    paddingBottom:2,
                     
                                 }}>
                                     EL SECRET DE LA MASSA
