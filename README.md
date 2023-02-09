@@ -4,7 +4,7 @@
 
 
 <br>
-<br>
+
 
  ![React Image](https://badges.aleen42.com/src/react.svg)
  
@@ -20,6 +20,8 @@ This project is made with [Create React App](https://github.com/facebook/create-
 
 <br>
 
+---
+
 ## `Description`
 
 Els 4 Cantons is a web page dedicated to a restaurant. In it we show the menu, the delivery and we facilitate the contact of the client.
@@ -34,9 +36,17 @@ Click here for view the deployed application -> https://elisabethmartinezmembrad
 
 ## `Views`
 
+### `Home`
+<img src="./Capturas/HomeCapture.jpeg" alt="Home" width="4000"/>
 
+### `Menu`
+<img src="./Capturas/MenuCapture.jpeg" alt="Menu" width="4000"/>
 
-<img src="./src/Imagenes/view1.jpg" alt="Home" width="4000"/>
+### `Delivery`
+<img src="./Capturas/DeliveryCapture.jpeg" alt="Delivery" width="4000"/>
+
+### `Contacto`
+<img src="./Capturas/ContactCapture.jpeg" alt="Contact" width="4000"/>
 
 
 
@@ -44,7 +54,7 @@ Click here for view the deployed application -> https://elisabethmartinezmembrad
 
 ## `Functions`
 
-The fucntion is very simple ,it collects the total weight of food, the number of meals for day and the grams. This calculates how long it will last.
+This application contains a function that creates the menus in a dynamic way, through arrays that contain objects. These are made up of each dish, ingredients, price and if it has delivery.
 
 ---
 ## `Instalation`
@@ -66,20 +76,9 @@ The project inlcudes a Pipeline in .yml format.
 
 ## `Upgrade ideas`
 
-* Create an accounting table, to know if there is an increase or decrease in food.
+* Create an API to add the menu and make it easier to change it.
 
-
-
-* Pet Registry
-
-* Add a calendar reminder to buy food.
-
-* Notes of possible allergens or discomforts.
----
-
-## `Contributions`
-
-All contribution forit improvement will be welcome.
+* Link some third-party backup application like the fork.
 
 ---
 
