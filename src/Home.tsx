@@ -14,7 +14,9 @@ function Home() {
     
       <header className="App-header">
         <Navbar/>
-        <Carousel/>
+        <div className='carouselWrapper'>
+            <Carousel/>
+        </div>
         <HomeWelcome/>
        
         

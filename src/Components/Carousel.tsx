@@ -1,17 +1,16 @@
 import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { wrap } from '@popmotion/popcorn';
-import  Imagenes  from "./Imagenes";
-
+import { wrap } from "popmotion";
+import Imagenes from "./Imagenes";
+import './Carousel.css'
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 const variants = {
   enter: (direction: number) => {
     return {
       x: direction > 0 ? 1000 : -1000,
-      opacity: 0,
-      
-      
+      opacity: 0
     };
   },
   center: {
@@ -39,6 +38,8 @@ const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity;
 };
 
+let seHaEjecutadoYa = false;
+
 export const Carousel = () => {
   const [[page, direction], setPage] = useState([0, 0]);
 
@@ -52,22 +53,25 @@ export const Carousel = () => {
     setPage([page + newDirection, newDirection]);
   };
 
+  if (seHaEjecutadoYa === false){
+    setTimeout(() => paginate(1), 1000 * 2 );
+    seHaEjecutadoYa = true;
+  }
+  	
   return (
-    <>
+    <div id="carousel">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
           src={Imagenes[imageIndex]}
           custom={direction}
           variants={variants}
-          initial={{translateY:"top", transformOrigin:"top",}}
-        
+          initial="enter"
           animate="center"
-          height={450}
           exit="exit"
           transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
-            opacity: { duration: 0.2 },
+            x: { type: "spring", stiffness: 300, damping: 30, },
+            opacity: { duration: 0.2 } 
           }}
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
@@ -83,12 +87,19 @@ export const Carousel = () => {
           }}
         />
       </AnimatePresence>
+      
       <div className="next" onClick={() => paginate(1)}>
-        {"‣"}
+      <ArrowBackIosIcon sx={{
+        height:"50px",
+        width:"50px",
+      }} />
       </div>
       <div className="prev" onClick={() => paginate(-1)}>
-        {"‣"}
+        <ArrowBackIosIcon sx={{
+        height:"50px",
+        width:"50px",
+      }}/>
       </div>
-    </>
+    </div>
   );
 };
